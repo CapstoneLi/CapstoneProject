@@ -4,6 +4,9 @@
  * @return
  * @date
  */
+
+
+// Make a change in others fork
 public class Quick {
     public static void main(String[] args){
         int[] toSort={-1,0,1,2,-1,4};
@@ -44,7 +47,7 @@ public class Quick {
             loop(nums,i+1,r);//右边整理
         }
     }
-    //This is a change!
+
     public static void quick_sort(int s[],int l, int r) {
         if (l < r) {
             //Swap(s[l], s[(l + r) / 2]); //将中间的这个数和第一个数交换 参见注1
